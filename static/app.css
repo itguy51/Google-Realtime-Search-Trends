@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+	@font-face {
+    font-family: 'mnmliconsRegular';
+    src: url('mnmliconsv21-webfont.eot');
+    src: url('mnmliconsv21-webfont.eot?#iefix') format('eot'),
+         url('mnmliconsv21-webfont.woff') format('woff'),
+         url('mnmliconsv21-webfont.ttf') format('truetype'),
+         url('mnmliconsv21-webfont.svg#webfont5XBFMzrm') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+	#searchbar{
+		width:500px;
+		font-size:20px;
+	}
+	#searchbtn{
+		font-family: 'mnmliconsRegular';
+		height:32px;
+		width:100px;
+		color:#EEEEEE;
+		font-size:24px;
+		    border: 0;
+
+cursor:pointer;
+		
+		background-image: linear-gradient(bottom, rgb(0,43,255) 23%, rgb(54,121,255) 81%);
+background-image: -o-linear-gradient(bottom, rgb(0,43,255) 23%, rgb(54,121,255) 81%);
+background-image: -moz-linear-gradient(bottom, rgb(0,43,255) 23%, rgb(54,121,255) 81%);
+background-image: -webkit-linear-gradient(bottom, rgb(0,43,255) 23%, rgb(54,121,255) 81%);
+background-image: -ms-linear-gradient(bottom, rgb(0,43,255) 23%, rgb(54,121,255) 81%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.23, rgb(0,43,255)),
+	color-stop(0.81, rgb(54,121,255))
+);
+	}
+	#google{
+		margin-left:170px;
+	}
+	#searchmain{
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		margin-top:-200px;
+		margin-left:-310px;
+		height:200px;
+		width:620px;
+	}
+	#notice{
+		position:absolute;
+		top: 100%;
+		margin-top:-25px;
+		margin-left:8px;
+	}
+	#large{
+		position:fixed;
+		display:block;
+		width:100%;
+		height:100%;
+		top:0px;
+		left:0px;
+		z-index:100;
+	}
+		#bgbox{
+			color:#999;
+		display:block;
+		width:100%;
+		height:100%;
+		top:0px;
+		left:0px;
+		z-index:0;
+		font-size:36px;
+		font-style:italic;
+	}
