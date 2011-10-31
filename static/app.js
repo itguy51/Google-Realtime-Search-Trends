@@ -10,7 +10,7 @@ function urlencode (str) {
 doSubmit();
     }
 });
-		  var socket = io.connect("%HOSTURI%/google");
+		  var socket = io.connect("%HOSTURI%");
 		  var loadone = false;
 		  var i = 0;
 		  var aspi = "";
