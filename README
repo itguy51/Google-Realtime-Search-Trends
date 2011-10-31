@@ -1,0 +1,18 @@
+NodeJS and SocketIO come together in a way to accelerate analytics.
+
+Using Google as the backbone, we can create an app to realtime list
+searches made with Google.
+
+=== Installation ===
+
+We assume you have
+* NPM
+* NodeJS
+
+<code>
+cd google-realtime-search-trends
+npm install socket.io
+node server.js
+</code>
+
+And that's all she wrote.
