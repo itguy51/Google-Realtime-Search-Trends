@@ -7,7 +7,7 @@ String.prototype.endsWith = function(suffix) {
 //DONE
 var globalsocket = null;
 var app = require('http').createServer(handler), io = require('socket.io').listen(app), fs = require('fs')
-app.listen(8765, "0.0.0.0");
+app.listen(80);
 function handler (req, res) {
 	
 	var file = null;
